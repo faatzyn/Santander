@@ -3,3 +3,5 @@ git reset -- soft hashDaBranch -> Ele retorna para a branch da hash, voltando os
 git reset -- mixed hashDaBranch -> desfaz o commit, retornando posteriors ao commit como arquivos unstaged
 git reset --hard hashDaBranch -> Desfaz todas as alterações, retornando para as configurações padrão da branch
 
+git push -u origin branch  -> O -u é atalho para --set-upstream
+
