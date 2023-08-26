@@ -1,0 +1,5 @@
+git log - Exibe todos os commits da branch
+git reset -- soft hashDaBranch -> Ele retorna para a branch da hash, voltando os arquivos como staged changes
+git reset -- mixed hashDaBranch -> desfaz o commit, retornando posteriors ao commit como arquivos unstaged
+git reset --hard hashDaBranch -> Desfaz todas as alterações, retornando para as configurações padrão da branch
+
