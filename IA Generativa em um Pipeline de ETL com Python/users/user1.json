@@ -1,0 +1,18 @@
+{
+  "id": 1739,
+  "name": "Luiz Faatzyn",
+  "account": {
+    "id": 1826,
+    "number": "02171-1",
+    "agency": "0001",
+    "balance": 0,
+    "limit": 500
+  },
+  "card": {
+    "id": 1680,
+    "number": "**** **** **** 0134",
+    "limit": 1000
+  },
+  "features": [],
+  "news": []
+}
