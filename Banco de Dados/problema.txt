@@ -1,0 +1,22 @@
+SEPARAR O ENDERECO ENTRE CIDADE - ESTADO
+
+NORMALIZAÇÃO DE DADOS
+1FN: Atomicidade de DADOS
+    Garantir que dada valor numa coluna seja atômica, ou seja, indivisível.
+Ex.: coluna enderoco -> Rua A, Cidade B, Estado C
+Correção
+rua -> Rua A,
+cidade -> B,
+estado, C,
+
+2FN: A Tabela deve se encontrar em 1NF. A 2FN ajuda a eliminar redundância de informações.
+    Garantir que as tabelas tenham PRIMARY KEY e que sejá a unica forma de trazer os dados dessa tabela.
+    Exemplo. Tabela usuarios, coluna nome, apenas essa tabela deve armazenar essa informação.
+    Isso significa que cada atributo não primário deve depender da chave primária como um todo,
+não de apenas uma parte dela.
+    
+
+3FN: A Tabela deve se encontrar em 2FN
+    Nenhuma coluna 'Não chave' pode depender de outra coluna 'Não chave'.
+Exemplo. Uma tabela que sempre trás o estado, repetindo diversas vezez na tabela.
+Dessa forma ela não depende da PK da tabela, dessa forma, cria-se uma nova tabela com os id de cada Estado.

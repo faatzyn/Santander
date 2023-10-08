@@ -1,0 +1,30 @@
+DQL -- Linguagem de Consulta de Dados
+SELECT;
+
+DML -- Linguagem de Manipulação de Dados
+INSET, UPDATE e DELETE;
+
+DDL -- Linguagem de Definição de Dados
+CRETE, ALTER, DROP;
+
+DCL -- Linguagem de Controle de Dados (Permissões de Usuários)
+GRANT, REVOKE;
+
+DTL -- Linguagem de Transação de Dados
+BEGIN, COMMIT, ROLLBACK
+
+MER -- Modelo Entidade Relacionamento -> Diagramas Entidade->Relacionamento (DER)
+Representado em um retangulo.
+Entidades -> Representação das tabelas;
+
+Atributos -> São as características das entidades.
+Representado por um balão.
+
+usuarios (Entidade)
+    id (Atributos)
+    nome (Atributos)
+    sobrenome (Atributos)
+    dt_nascimento (Atributos)
+
+montar diagrama: https://app.quickdatabasediagrams.com/#/
+Hosperdar gratuito 7 dias: https://clients.cloudclusters.io

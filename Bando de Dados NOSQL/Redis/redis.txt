@@ -1,0 +1,37 @@
+O que é Redis?
+    Sistema de armazenamento de dados em memória de alto desempenho.
+
+Por ser em memória, caso deslique, perde os dados.
+
+Características
+Armazenamento em memória;
+Estrutura de Dados Versátil;
+Operações Atômicas;
+Cache de Alto desempenho;
+Pub/Sub (Publicação/Assinatura), Publica e replica para outras máquinas;
+Armazena Chave => Valor (Não confundir com JSON)
+Tempo de vida dos dados;
+
+Utilizações
+Cache de Dados;
+Filas de mensagens;
+Contagem de acessos e Estatísticas em Tempo Real;
+Gerenciamento de Sessões;
+Cache de Resultados de Consultas
+
+Principais Comandos
+SET -> Adicionar informação dentro do redis -> SET chave "Valor" -> SET nome "Luiz", SET nome_2 "Lucas"
+GET -> Trazer os dados -> A pesquisa é em cima das chaves e não valores -> GET nome, GET nome_2
+DEL -> Excluir essa informação -> DEL nome
+EXISTS -> Verificar se já existe uma Chave -> EXISTS nome -> 0 False e 1 True
+KEYS -> Usando pattern (REGEX) -> KEYS nome* retorna nome e nome_2, pois procura tudo com o texto nome no início
+INCR -> Incremento de uma variável numérica -> 
+DECR -> Decremento de uma variável numérica -> 
+EXPIRE -> tempo de vida -> EXPIRE nome 100 -> espira em 100 segundos
+TTL -> Retorna o tempo de vida -> TTL nome -> retorna em segundos
+
+FAZER UMA LISTA
+LPUSH usuario "Lucas" "Luiz" "Lari" -> Adiciona uma LISTA
+LRANGE usuario 0 -1 -> Retorna a lista de trás para frente
+LPUSH usuario "Luly" -> Adiciona mais um item na lista
+LLEN usuario -> Retorna o tamanho do array

@@ -1,0 +1,27 @@
+CREATE TABLE IF NOT EXISTS usuarios (
+    id INT PRIMARY KEY AUTO_INCREMENT COMMENT 'id do usuario',
+    nome VARCHAR(255) NOT NULL COMMENT 'Nome do Usuario',
+    email VARCHAR(100) NOT NULL UNIQUE COMMENT 'E-mail do Usuario',
+    data_nascimento DATE NOT NULL COMMENT 'Data de nascimento do Usuario',
+    rua VARCHAR(255) NOT NULL COMMENT 'Nome da rua',
+    numero VARCHAR(50) COMMENT 'Numero da residencia',
+    complemento VARCHAR(255) NOT NULL COMMENT 'Complemento do endereco',
+    cidade VARCHAR(50) NOT NULL COMMENT 'Cidade do usuario',
+    estado VARCHAR(50) NOT NULL COMMENT 'Estado do usuario',
+);
+
+CREATE TABLE IF NOT EXISTS destinos (
+    id INT PRIMARY KEY AUTO_INCREMENT COMMENT 'id do destino',
+    nome VARCHAR(255) NOT NULL UNIQUE COMMENT 'Nome do destino',
+    descricao VARCHAR(255) NOT NULL COMMENT 'Descricao do destino'
+);
+
+CREATE TABLE IF NOT EXISTS reservas (
+    id INT PRIMARY KEY AUTO_INCREMENT COMMENT 'id da reserva',
+    id_usuario INT COMMENT 'Referencia ao ID do Usuario que fez a reserva',
+    id_destino INT COMMENT 'Referencia ao ID do Destino da reserva',
+    data DATE NOT NULL COMMENT 'Data da reserva',
+    status VARCHAR(255) DEFAULT 'pendente' COMMENT 'Status da reserva (confirmada, pendente, cancelada, etc.)',
+    FOREIGN KEY(id_usuario) REFERENCES usuarios(id),
+    FOREIGN KEY(id_destino) REFERENCES destinos(id)
+);

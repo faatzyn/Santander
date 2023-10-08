@@ -1,0 +1,16 @@
+INSERT INTO usuarios (nome, email, dataNascimento, rua, numero, complemento, cidade, estado)
+VALUES ('Luiz', 'luiz@gmail.com', '1991-08-01', 'Rua A', 'n300', 'casa 42', 'A', 'SP'),
+('Lari', 'lari@gmail.com', '1991-08-01', 'Rua C', 'n30', 'esquina', 'A', 'SP'),
+('Lucas', 'lucas@gmail.com', '1991-08-01', 'Rua B', 'n3234', 'bloco 2 ap.1', 'A', 'SP'),
+('Luly', 'luly@gmail.com', '1991-08-01', 'Rua E', 'n33', 'casa 42', 'proximo a padaria', 'SP')
+;
+
+INSERT INTO destinos (nome, descricao) VALUES
+('Praia do Rosa', 'Linda Praia'),
+('Peruibe', 'Lugar muito gostoso'),
+('Ubatuba', 'Ambiente muito bonito')
+;
+
+INSERT INTO reservas (reservas.id_usuario, reservas.id_destino, reservas.status, reservas.data) VALUES
+(1, 1, 'pendente', '2023-11-11')
+;

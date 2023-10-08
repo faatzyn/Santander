@@ -1,0 +1,15 @@
+Pag1
+Criar um relatório com componentes específicos (relatório análitico)
+SEGMENTADOR POR TEMPO
+SOMAS
+Gráfico de linha por periodo
+Bar ou Pie Sale x Segmento
+Bar Soma de Sales por Product
+Bar ou Maps Sale x Pais
+
+Pag2
+Report de Lucro Detalhado
+Gráfico de Radar
+Gráfico de cascata
+Treemap
+Periodo

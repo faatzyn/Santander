@@ -1,0 +1,78 @@
+O que são KPIs e Métricas
+    Indicador chave de performance
+    Indica se tudo está de acordo com o planejado
+    Como está a saúde da empresa
+    Pode variar de acordo com o contexto, setor da empresa, area de atuação da empresa de acordo com o mercado
+
+VANTAGENS
+    É possível contabilizar a performance de colaboradores (individualmente)
+    Permite ajuste dos gerentes
+    Adequação de estratégias
+    Avalia a saúde da empresa
+
+CATEGORIAS
+    Operacional
+        Mede a eficiência de uma organização
+    Estratégica
+        Indicadores chaves - Desempenho - Foca em um objetivo mais amplo - longo prazo
+    Leading ou Lagging
+        Antecipado ou atrasado, plano anterior, métricas anteriores, antecipar ao mercado (precisão)
+    Qualitativa ou Quantitativa
+        Qualitativa - Qualidade - Satisfação de usuário/cliente (Serviços)
+        Quantitativa - Quantidade - Mensurar - Quantificar
+
+KPIs LEVELS
+    Company-level
+        Nível da organização, saúde organizacional
+    Departament-level
+        Diferentes departamentos tem KPIs diferentes, métricas diferentes
+    Project-level
+        A nível de projeto, mais específico do que o nível organizacional, analisar desempenho do projeto (Antes, durante e depois)
+
+O que devemos considerar com uso das KPIs?
+    Inteligência de Negócios - Atráves dessas perguntas sabemos a importância
+    Por que esse resultado é importante?
+    Quem é o responsável pelo resultado?
+    Como o resultado pode ser influenciado?
+    Como você vai medir o progresso?
+    Com que frequência você medirá o progresso?
+    Como você saberá se atingiu seus objetivos?
+
+Considerações:
+    As KPIs devem ser simples e claras, para que qualquer um possa entender.
+    Comunicação para divulgar os KPIs
+    Refinamento ao longo do tempo
+
+TERMO SMART - Para definir a KPIs
+    [S]pecific - específico
+    [M]easurable - mensurável
+    [A]chievable - atingível
+    [R]ealistic - relevante
+    [T]imely - Período de tempo para atingir
+
+Budget - Verba
+Budget remain - Verba remanescente
+
+Priority
+    HIGH
+    MEDIUM
+    LOW
+
+TYPE
+    Email campaign
+    Event
+    Brand
+    Paid ads
+
+KPIs x Métricas
+    Métricas - Medidas quantitativas para analisar o desempenho do negócio específico de um nível operacional e tático
+        são métricas para um bom desempenho do negócio, mas não são essenciais
+    KPIs - Progresso do negócio, possuem alta nível de perspectiva, envolve diversas áreas
+        São relevantes para o negócio, utilizadas para tomadas de decisões
+
+Tarefas de um analista
+    Prepare
+    Analiyze
+    Model
+    Manage
+    Visualize

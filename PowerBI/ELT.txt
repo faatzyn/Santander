@@ -1,0 +1,60 @@
+ELT
+Extract, Load, Transform
+Inversão dos processos de Load e Transform
+Extract
+    Coleta de dados brutos              CRM Cloud
+    Fontes Heterogêneas                 Filas SGBD
+    Objetivo: integração posterior      Legados Files
+
+Load
+    Transferência/Carregamento dos Dados Brutos (Não trabalhados)
+    Dados brutos
+    Data Warehouse ou repo (Local que os dados brutos vão ficar)
+
+Transform
+    Transformação dos dados dentro do repo ou Data Warehouse
+    Aplicação das análises
+
+Por que assim ?
+    Para mostrar que com os dados Brutos é possível uma nova análise de dados
+
+Ganhos ?
+    Independencia de TI
+
+Reponsável?
+    Profissionais de analise de dados
+
+Vantagens
+    Otimização de tempo
+    Eficiência na implantação de projetos
+    Menor dependência de TI
+    Papel principal dos analistas
+
+
+Diferenças entre ETL e ELT
+    Tempo de carregamento -> Sistemas integrado -> certo ganho em não precisar transforma-los em relação ao ETL
+    Tempo de transformação -> Gargalo na transformação em grande volume em relação ao ETL
+    Tempo de manutenção -> Custo com atualização (Salários mais altos de TI no ETL) -> Custo mais baixo no ELT
+    Complexidade de implementação -> Custo com atualização -> Acarretando Complexidade e quem vai lidar com isso será os analistas
+        Se adequa uma ferramenta para os analistas utilizar
+    Limitação de Dados -> ELT os dados são fornecidos mais rapidamente
+    Suporte à Data Warehouse -> Dentro do ELT existe um método desenvolvido -> Como lidar com os dados'
+    Usabilidade -> Abordagem do processo -> Tabelas Fixas dentro do ETL, apenas técnicos -> A doc., escalável e flexível
+        ELT se preocupa apenas com coleta e extração. Técnicos e Analistas
+
+Quando usar ETL ou ELT?
+    Depende do tipo de dados que se está lidando.
+
+    Abordagem ETL:
+        Foi pensando num momento que o armazenamento era algo muito caro.
+        Estruturas bem definidas
+        Necessário transformar esse dados antes para alguém usar
+        Foco -> Transformação dos dados
+        Processamento de informações lento
+
+    Abordagem ELT:
+        Storage não é problema -> Permitindo agilidade
+        Transformar os dados com base na perspectiva do negócio (maneira mais acertiva)
+        Custos menores por utilizar apenas analistas para tratar os dados (regras de negócios)
+        Adoc.
+        Menor tempo para transformar os dados

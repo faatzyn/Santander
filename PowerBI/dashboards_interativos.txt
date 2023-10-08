@@ -1,0 +1,25 @@
+Objetivo Geral
+    Definir um modo de exibição mobile
+    Add um tema aos visuais no seu dashboard
+    Configurar a classificação de dados
+    Add em tempo real visuais de conjunto de dados aos seus dashboards
+
+O que são Dashboard?
+    "Dashboards permitem que os consumidores de relatório criem um artefato de dados direcionados que é personalizado apenas para eles".
+    Gráficos exemplificando dados.
+    Funciona como uma vitrine
+    
+    Características
+        Visuais Fixados
+        Visuais de relatórios distintos
+    
+Dashboard x Relatórios
+    Diferença Dashboard
+        Vários conjuntos de dados ou reports
+        Não possuem painéis Filtro, Visualização e Campo
+        Podem ter apenas uma página
+        Dataset analisdo -> report
+        Ambos podem ser atualizados
+        Manipulação dos blocos
+        Não dão acesso aos dados
+

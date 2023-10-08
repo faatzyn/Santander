@@ -4,4 +4,3 @@ git reset -- mixed hashDaBranch -> desfaz o commit, retornando posteriors ao com
 git reset --hard hashDaBranch -> Desfaz todas as alterações, retornando para as configurações padrão da branch
 
 git push -u origin branch  -> O -u é atalho para --set-upstream
-

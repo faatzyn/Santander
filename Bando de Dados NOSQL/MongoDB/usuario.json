@@ -1,0 +1,17 @@
+{
+    "_id":1,
+    "nome":"Luiz",
+    "idade":32,
+    "data_nascimento":"1991-08-01",
+    "endereco":"Rua A Cidade B Estado C",
+    "enderecos":[
+        {
+            "logradouro":"Rua A",
+            "numero":123,
+            "bairro":"Bairro zz",
+            "cidade":"Cidade B"   
+        }
+    ],
+    "interesses":["Kart", "Culinaria"],
+    "reservas": ["ObjectId(\"123\")", "ObjectId(\"234\")"]
+}

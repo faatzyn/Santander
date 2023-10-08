@@ -1,0 +1,30 @@
+O Que São Bancos de Dados NoSQL?
+
+Olá a todos!
+
+Gostaria de compartilhar com vocês o assunto que mais me atraiu até o momento nesse Bootcamp.
+
+Vamos falar sobre Bancos de Dados NO﻿SQL e como eles são usados. Esses bancos de dados são uma maneira especial de guardar informações e têm algumas diferenças em relação aos bancos de dados tradicionais.
+
+1. O Que São Bancos de Dados NoSQL?
+
+São uma forma diferente de guardar informações.
+Eles são bons para guardar dados que não são organizados em tabelas (como uma planilha).
+2. Exemplos de Bancos de Dados NoSQL:
+
+MongoDB (como uma grande pasta de documentos).
+Cassandra (bom para informações em constante mudança).
+Redis (rápido como um raio).
+Neo4j (ótimo para informações interconectadas).
+Couchbase (ideal para aplicativos móveis).
+3. Como Usamos Bancos de Dados NoSQL?
+
+Eles são ótimos para coisas como redes sociais, análise de dados gigantes, jogos online e muito mais.
+Também podem ser usados para guardar informações de dispositivos inteligentes, como termostatos e relógios.
+4. Principais Vantagens dos Bancos de Dados NoSQL:
+
+Escalabilidade: Podemos adicionar mais capacidade facilmente.
+Flexibilidade: Podemos guardar diferentes tipos de informações juntos.
+Velocidade: Acesso rápido aos dados.
+Gerenciamento de Grandes Volumes de Dados: Funcionam bem com muitos dados.
+Disponibilidade Alta: Menos tempo parado, informações sempre disponíveis.

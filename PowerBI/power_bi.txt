@@ -1,0 +1,67 @@
+Pre Requisitos
+Modelagem de Dados
+SQL
+Excel
+
+O que é BI?
+Business Intelligence
+Consiste em uma area composta por tecnologia e estratégias para realizar análise de dados e gerenciamento das informações
+
+Tratar os Dados
+A maior perda de tempo é na limpeaza dos Dados
+Dados fornecem informação
+É necessário conhecimento para compreender essa informação
+A compreensão de um cenário permite a tomada de decisões
+É necessário questionar o porque do acontecimento de um padrão nos dados
+
+informação
+conhecimento mais abastrato com o conceito apenas de informar
+Aprender e Entender
+
+conhecimento permite a tomada de decisão
+
+4V 
+Volume
+Variedade
+Velocidade
+Veracidade
+
+Tipos de análise
+Descritiva - O que aconteceu?
+    Primeira Análise; Caracterizar, sumarizar; Entender: Comportamento de dados;
+Diagnóstica - Por que aconteceu?
+    Encontrar relações de causa e efeito do cenário; Processo prababilístico;
+
+Entender o Futuro - Análises Tradicionais
+Preditiva - O que vai acontecer?
+    Prever certas situações
+Prescritiva - O que fazer? Machine Learning
+    Diagnósticos e Prescrição - Resolução de um problema, subsídio dos impactos
+
+Power BI
+    "Preenche a lacuna entre os dados e a tomada de decisão"
+    Dashboard - Efetua análise descritivas a partir de relatórios, cloud, sap
+    Possui integração com R e Python
+
+Por que BI?
+    Quando analisamos dados, tomamos decisões com confiança, contudo é necessário que a base seja de ótima qualidade.
+    Podemos compartilhar/disponibilizar nossa Dashboard
+    Integração com outras ferramentas (Microsoft)
+    
+Blocos de Construções Power BI 
+    Visualizações
+        Gráfico de Barras - Exibir agrupamento
+        Gráfico de Linhas - Exibir tendências ao longo do tempo
+        Gráfico de mapa - Valor com regiões
+        Treemap - Agrupamento por contagem, nível hierarquico
+        Gráfico de combinação - Barras com Linha, 2 eixos x
+        Árvore Hierarquica - Detalhamento - Categorização
+        
+    Conjunto de dados
+    Relatórios
+    Painéis
+    Blocos
+        Visual dentro do Power BI (Gráficos)
+        Formas
+        Caixas de Textos
+        Imagem
