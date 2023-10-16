@@ -1,0 +1,67 @@
+Dados para Análise
+Erros
+    Status - Tipo numérico
+    Erros nas colunas
+    Valores Nulos
+    Duplicação de IDs
+    Coluna complexa - endereço
+
+Problemas
+    Dados inválidos
+    Resultados incorretos
+    Relatórios equivocados
+    Más decisões
+
+Dados Limpos
+    Resultados precisos quando fazer agregações e cálculos
+    As tabelas são organizadas
+    As duplicatas são removidas
+    Divisão de uma coluna complicada em duas colunas mais simples
+    Combinação de colunas para facilitar a leitura
+    Códigos e inteiros poder ser substituídos por valores legíveis
+
+Fluxo de Dados no POWER BI
+    Coleta
+    Transformação -> Foco nesse módulo
+    Criação de Dashboards
+    Publicação do Relatórios
+    Inserção em um Dashboard
+
+Dados Limpos, como resolver?
+    Como resolver inconsistências
+    Susbstituir valores
+    Analisar dados das colunas
+    Transformar dados das colunas
+    Combinar consultas
+    Aplicar nomenclaturas
+    Enteder Código M
+
+Utilizar o Transformar Dados do POWER BI (POWER QUERY)
+A modificação é efetuado em cima da visualização dos dados pelo power bi, não no relatório.
+
+Combinar x Mesclar
+Mesclar é um JOIN !!!
+    Nesse join eu passo a coluna que é para ser mesclada!
+    Clica em Expandir para aparecer as informações
+
+Estatísticas no Power Query
+    Verificar a distribuição de valores
+    Pontos fora da curva (valor sem sentido)
+    Quantidade de valores distintos
+    Quantidade de valores exclusivos
+    Quantidade de repetições
+    Padrão
+    Média
+    Máxima
+    Aplicar funções matemáticas
+    Ver a qualidade da coluna
+    Valores válidos, erros, vazios
+
+Linguagem M
+    Editor avançado do power bi
+    let (variáveis do workbook) 
+    in (workbook)
+    É a definição de como o Power BI compreendeu seu relatório, para em cima dele criar o seu próprio.
+    Lá se encontra como ele puxou cada valores, como definiu a coluna e tudo mais.
+    Tem fonte (MYSQL, EXCEL...)
+    

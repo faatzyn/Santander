@@ -1,0 +1,41 @@
+UTILIZAÇÃO DE UM BANCO MYSQL LOCALMENTE
+    Motivo: Conta Microsoft sem crédito para uso.
+
+CRIAÇÃO DO RELATÓRIO
+FOCO
+    Coleta e Extração de dados
+
+Criar relatório para verificar as informações e possíveis anomalias
+    Banco de dados (teste) Company
+    Criação de instância MySQL
+    Criar o banco de dados
+    Integração do Power BI com o MySQL
+    Verificar problemas na base a fim de realizar a transformação dos dados
+
+Transformação de Dados
+    Verificar os cabeçalhos e tipos de dados
+    Modificar valores monetários para o tipo double preciso
+    Verificar a existência dos nulos e analise e remoção
+    OS employees com nuler em Super_ssn podem ser os gerentes
+        Verifique se há algum colaborador sem gerente
+    Verifique se há algum departamento sem gerente
+        Se houver departamento sem gerente, suponha que você possui os dados e preencha as lacunas
+    Verifique o número de horas dos projetos
+    Separar colunas complexas
+    Mesclar consultas e employee e department para criar uma tabela employee com o nome dos departamentos associados aos colaboradores.
+        A mescla terá como base a tabela employee.
+        Obs.: Fique atento, essa informação influencia no tipo de junção.
+        Nesse processo elimine as colunas desnecessárias.
+        Mesclar: Tem como objetivo criar um relacionamento entre duas tabelas, a partir de uma ou mais colunas.
+        Atribuir: Combina os dados de uma tabela abaixo dos dados de outra tabela.
+    Realizar a junção dos colaboradores e respectivos nomes dos gerentes.
+        Isso pode ser feito com consulta SQL ou pela mescla de tabelas com o Power BI.
+        Caso utilize SQL, espeficique no README a query utilizada no processo.
+    Mescle as colunas de Nome e Sobrenome para ter apenas uma coluna definindo os nomes dos colaboradores.
+    Mescle os nome de departamentos e localização. Isso fará que cada combinação departamento-local seja único.
+        Isso irá auxiliar na criação do modelo estrela em um módulo futuro.
+    Explique por que, neste caso supracitado, podemos apenas utilizar o merclar e não o atribuir.
+    Agrupe os dados a fim de saber quantos colaboradores existem por gerente.
+    Elimine as colunas desnecessárias, que não serão usadas no relatório, de cada tabela.
+
+    

@@ -1,0 +1,74 @@
+Integrar banco de dados com o Power BI
+
+FOCO -> COLETA E TRANSFORMAÇÃO
+
+Objetivo Geral
+    Identificar e ligar a uma origem de dados
+    Obter dados de uma base de dados de diferentes fontes
+    Obter dados do Azure Analysis Services
+    Selecionar um modo de armazenamento
+    Corrigir problemas de desempenho
+    Resolver erros de importação de dados
+
+Realidade - Fontes Heterogêneas
+    Banco de dados
+    Excel
+    Aplicação de armazenamento Cosmos DB
+    Azure Analysis
+    Sharepoint - Ambiente corporativo da Microsoft para compartilhar arquivos, documentos
+    Power Query - Manipular dados, Remover erros, Combinar resultados, DAX (Data Analysis Expressions)
+
+Fluxos de Dados no Power BI
+    Coleta
+    Transformar (Power Query)
+    Criação Dashboard
+    Publicação do relatório
+    Inserção em um Dashboard
+
+Dados <> Info -> Dados são sujos (necessidade de transforma-los)
+
+Power Query
+Ficheiros - csv, txt, excel, mysql, sql, azure, aws - Dados de diferentes fontes, criar conexão entre elas
+
+De onde vem?
+    Local
+    Onedrive
+    Sharepoint
+    Banco de Dados
+    Sistemas, APIs,...
+
+É necessário que eles conversem (tipos diferentes de documentos)
+
+Dataset de origem  
+    Mudança durante projeto
+    Atualização do local do dataset
+    PDF, JSON, TXT,... MYSQL, SQLSERVER, ...
+
+MYSQL
+    Obter dados, MYSQL
+    Instalar o MYSQLCONNECTOR (Só funcionou o 8.0.32)
+    
+CRIAR USUARIO
+-- CREATE USER 'teste'@localhost IDENTIFIED BY '123456';
+-- GRANT ALL PRIVILEGES ON dio_santander.* TO 'teste'@localhost;
+
+Quando usar SQL (QUERY) ?
+    Quando preciso selecionar uma base de dados especifíca (Dados apenas dos últimos 3 meses)
+    Carregamento parcial
+    Junção de tabelas (JOINs)
+    Quando mais pesada a query, mas demorado o processo.
+
+Sobre usa Query:
+    Teste sua consulta
+    Utilize outro meio para teste
+    Vista do resultado no Power Query? Exibe uma tabela com os campos requeridos.
+
+Dobragem de Consultas
+    Mais eficiência em atualizações de dados
+    Compatibilidade automática com modos de armazenamento
+
+Performance
+    Processar dados na origem
+    Utilizar SQL Nativo
+    Separar a data e a hora do mesmo campo
+    Manter a baser a ser utilizada
