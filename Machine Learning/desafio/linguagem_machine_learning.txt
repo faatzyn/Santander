@@ -1,0 +1,36 @@
+Paradigma -> Determina a visão que o desenvolvedor possui sobre a estruturação e a execução do programa
+    Lógica
+        Proxíma de como o processador processa a informação;
+        Portas lógicas que manipulam os dados;
+        Utilizada para criar base de dados em IA;
+        Essa base de dados retorna a resposta;
+        Processamento de linguagem natural;
+        Trás o estilo da lógica matemática para à programação de computadores;
+        Linguagem pro-log;
+
+    Funcional
+        Trabalhar com funções;
+        Paradigma bem matemático;
+        Programação Funcional bem visível;
+        Análise estatísticas, probabilisticos...;
+        Linguagem R, Python, JS, Scheme... (Diversas linguagens);
+        Resposta deterministica;
+
+    Imperativa
+        Está relacionado com a forma como fazemos a comunicação com o mundo real;
+        Descreve a computação como ações, enunciados ou comandos que mudam o estado (variáveis) de um programa;
+        Arquitetura de Von Neumann;
+        Linguagem C, Assembly;
+
+    Orientada a Objetos
+        Temos como objetivo transformar nosso problema do mundo real em partes (módulos) para o computador;
+        Possível Trabalhar com reaproveitamento de objetos;
+        Melhor abstração do código
+        Polimorfismo, Herança, Encapsulamento, Abstração
+        Linguagens Orientadas a Objetos
+
+    Scilab - Multiparadigmas
+        Laboratório de matrizes
+        gráfico
+        Python
+        estatísticas e matemática

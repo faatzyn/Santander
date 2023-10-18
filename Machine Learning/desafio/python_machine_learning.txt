@@ -1,0 +1,9 @@
+Python
+    Linguagem Multi-paradigmas
+
+1. Programação Básica
+    Tipos de Variáveris
+        Complex -> Números imaginários
+2. Instalação de dependências
+3. Bibliotecas de ML
+4. Configuração de GPU em CUDA
