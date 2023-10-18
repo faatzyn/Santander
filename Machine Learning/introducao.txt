@@ -1,0 +1,39 @@
+Foco nas tecnologias existentes e uma boa base teórica
+
+Máquinas que pensam como humanos
+    Treinamento de sistemas de IA;
+    Tomada de decisão com suporte de base re regras bem difinidas;
+    Não toma decisão na emoção;
+    Automação para correção e suporte para falhas humanas;
+
+Como a IA é vista hoje?
+    IA GERAL
+        Sabe fazer tudo
+    IA RESTRITA
+        Sistema específico para uma coisa (Direção autônoma, reconhecimento facial,...) para pequenos problemas
+    Aprendizado de Máquinas
+        Ensinar um sistema a criar uma inteligência ou não baseada em alguns desafios
+
+
+Teste de Touring
+    Robô enganar/persuadir um humano numa determinada situação
+    Testa a capacidade de um robô se comportar como uma humano
+
+
+ML <> IA ?
+    ML é necessário um método de aprendizado para criar/adquirir a parte inteligente do sistema;
+    Quando o sistema consegue generalizar as situações, ele vira um IA;
+
+Objetivo do ML
+    Programar computadores para aprender determinado comportamento ou padrão automaticamento a partir de exemplos ou observações (DATASETS)
+
+IA Restrita
+    Aprendizado por reforço - Recompensa pelos acertos - Rede Neural Artificial
+
+Deep Learning - TensorFlow
+    Aprendizado profundo
+
+Problemas em processamento de imagem em 2D
+    Profundidade
+    Adesivos em carros (de pessoas)
+

@@ -1,0 +1,24 @@
+ML Bioinspirados
+
+Algoritimos Bioinspirados
+    De onde veio a ideia de ensinar uma máquina?
+    Buscando inspiração em certos comportamentos, natureza, animais... em convivência social;
+    Conhecimento colaborativo/compartilhado;
+    Métodos Heurísticos (Não determinísticos); Melhor solução dentro de um espaço de busca;
+    Buscam a melhor solução global;
+
+
+Algoritimos Heurísticos x Determinísticos
+    Determinísticos -> 
+        Algo que já se sabe o resultado (Um cálculo por exemplo)
+
+    Heurísticos ->
+        No mundo real, mas parte das informações são heurísticos
+        Pessoa mais bonita do Mundo -> Não se sabe ao certo, envolve critérios de avaliações de opniões diferentes
+        Valores Fuzzy -> Valores que permeam entre dois intervalos. Exemplo: 20° pode ser frio para um e calor para outro.
+
+O que mais Usamos?
+    REDES
+    GENÉTICOS
+    ROBÓTICA
+

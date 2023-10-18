@@ -1,0 +1,57 @@
+Redes Neurais Artificiais - RNA
+    Algoritimo inspirado na natureza
+
+Overfittinh -> Quando um modelo estatístico se ajusta muito bem ao conjunto de dados anteriormente observados
+    mas ineficaz para novos resultados.
+
+O que são redes neurais?
+    São redes inspiradas nos neurônios
+
+RNA x Deep Learning
+    DL tem uma maior quantidade de camadas ocultas, gerando maior capacidade de aprendizado
+
+Neurônio Artificial
+    Sinais de entrada(n) -> Combinador Linear/Soma (1) -> Função de ativação (1) -> Sinal de saída (1)
+    Pesos sinápticos(n)
+    Quando uma RNA é treinada, gera um arquivo de pesos que correspondem ao aprendizado
+
+Estrutura
+    Constituida entre neurônios, uma Estrutura de neurônios bem definidas e um peso de neurônios bem treinados
+    Neuronia computacional - Algoritimo de computador modelado matematicamento como um neurônio biológico
+    Avalia todos os valores de entrada para gerar um resposta na saída
+    A interligação de neurônios aumenta a capacidade de processamento
+
+    Dentritos - Entrada da rede
+    Núcleo - Lógica da tomada de decisão
+    Axônio+sinapse - Saída
+
+Dados de entrada e de saída
+    Entrada (Visão/Imagem) -> Processamento (RNA) -> Dados interpretados na saída.
+    A imagem é avaliada pelo computador atráves dos dados pertinentes a essa imagem.
+    Percorro com uma matriz os dados dessa imagem, para efetuar a validação do que se trata a imagem.
+    Matriz/Camadas de neurônios.
+    Essa validação geralmente inclui as características mais peculiares do objeto que foi treinado com a rede.
+    A própria rede avalia quais são as características peculiares.
+    O Processamento dessa imagem pode ser feito em tons de cinza, caso as cores sejam irrelevante.
+    Caixa preta -> Igual ao Cerébro, não é possível saber como processa os dados, o mesmo acontece com a IA após o treino.
+
+Classificação
+    Separadas por classe - Exemplo reconhecer Gato ou Cachorro (0 - Gato, 1 - Cachorro) - Sistema Binário
+    Para cada classe, rotulamos a imagem com a definição (Gato ou Cachorro)
+    Quanto mais classes, mas propenso a erros.
+
+Como montar uma base de treino
+    Gatos
+    Pego uma quantidade de fotos com fotos apenas de Gatos - a IA sabe que tem apenas Gatos - Quanto mais exemplos mais robusto o sistema;
+
+Dados de aprendizado
+    Pesos gerados no Treinamento -> .txt
+        Pesos de conexão da camada de entrada
+        Pesos de conexão das camadas escondidas
+    Pesos são valores
+
+    Camadas
+        Sentido da propagação: Camada de Entrada -> Camada Escondida -> Camada de Saída
+
+        Camada de saída
+            Valores de saída -> 1 valor para cada neurônio, pode possuir mais de um neurônio de saída

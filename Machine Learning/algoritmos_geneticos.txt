@@ -1,0 +1,23 @@
+Algoritmos Genéticos (AG)
+    Vieram da computação bioinspirada com a ideia de trazer modelos baseados no comportamento genético
+    o AG gera uma população de individuos e análise qual o melhor individuo
+    Com o tempo vai combinando os melhores individuos para gerar novos melhores
+    Tem resposta aproximada (Heurístico)
+
+
+Aplicações
+    Navegação robótica (melhor rota)
+    IA (Mapea conjunto de conhecimento novo)
+    Geração de novos dados quando não temos amostrar (criamos população que complementa as outras)
+    Jogos Digitais
+
+Métodos para Algoritmos Genéticos
+    Passo 0 - Gerar população inicial
+        Quantidade  de população
+    Passo 1 - Seleção dos melhores individuos
+        Método de Seleção por roleta
+        Seleciona os melhores individuos dada sua probabilidade
+    Passo 2 - Recombinação dos melhores individuos 
+        Selecionados acima - caso não seja melhor que os pais, recombina os pais novamente
+    Passo 3 - Seleção dos melhores individuos iniciais
+        
